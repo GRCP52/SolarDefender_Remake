@@ -2,15 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GunnerMove : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+public class GunnerMove : MonoBehaviour
+{
+    
+	void Start ()
+    {
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    //Input
+	void Update ()
+    {
+        ActivateThursters();
+    }
+
+    //actions
+    void FixedUpdate()
+    {
+        CheckThursters();
+    }
+
+    void CheckThursters()
+    {
+        if()
+        {
+
+        }
+        else
+        {
+
+        }
+
+    }
+
+    void ActivateThursters()
+    {
+
+    }
 }
